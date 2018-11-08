@@ -1,0 +1,36 @@
+# do mips_single_cycle.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:28:09 on Nov 14,2017
+# vlog -work work mips_single_cycle.vo 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 16:28:10 on Nov 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:28:10 on Nov 14,2017
+# vlog -work work RegFileTest.vwf.vt 
+# -- Compiling module RegFile_vlg_vec_tst
+# 
+# Top level modules:
+# 	RegFile_vlg_vec_tst
+# End time: 16:28:10 on Nov 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.RegFile_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 16:28:10 on Nov 14,2017
+# Loading work.RegFile_vlg_vec_tst
+# Loading work.RegFile
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: Design size of 10735 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: $finish    : RegFileTest.vwf.vt(57)
+#    Time: 1 us  Iteration: 0  Instance: /RegFile_vlg_vec_tst
+# End time: 16:28:13 on Nov 14,2017, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1

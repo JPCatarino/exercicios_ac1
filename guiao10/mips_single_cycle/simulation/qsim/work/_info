@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ACI/guiao10/mips_single_cycle/simulation/qsim
+vControlUnit
+Z1 !s110 1511105895
+!i10b 1
+!s100 MhzIcEPzR;9_89PX=ld5L2
+I_SzaaaZ>ROWaHPjfOQgjz3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1511105894
+Z3 8mips_single_cycle.vo
+Z4 Fmips_single_cycle.vo
+Z5 L0 32
+Z6 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z7 !s108 1511105895.000000
+Z8 !s107 mips_single_cycle.vo|
+Z9 !s90 -work|work|mips_single_cycle.vo|
+!i113 1
+Z10 o-work work
+n@control@unit
+vControlUnit_vlg_vec_tst
+R1
+!i10b 1
+!s100 L0diL@5XS5?<;A;PN?3=_3
+I?5>ElAC_chUiCe7`z_cgY1
+R2
+R0
+w1511105888
+8ControlUnitTest.vwf.vt
+FControlUnitTest.vwf.vt
+Z11 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 ControlUnitTest.vwf.vt|
+!s90 -work|work|ControlUnitTest.vwf.vt|
+!i113 1
+R10
+n@control@unit_vlg_vec_tst
+vRAM
+Z12 !s110 1511106072
+!i10b 1
+!s100 miBFbCRRV;TLjSZFW]YSa0
+IlHY<BjHHU:FiIjCejkR703
+R2
+R0
+w1511106070
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1511106071.000000
+R8
+R9
+!i113 1
+R10
+n@r@a@m
+vRAM_vlg_vec_tst
+R12
+!i10b 1
+!s100 ?nHOWGM3U?ZJnZ_<l1laS3
+I><NG_Od9ILN87n58gO]BB0
+R2
+R0
+w1511106064
+8RAMTest.vwf.vt
+FRAMTest.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+!s108 1511106072.000000
+!s107 RAMTest.vwf.vt|
+!s90 -work|work|RAMTest.vwf.vt|
+!i113 1
+R10
+n@r@a@m_vlg_vec_tst
